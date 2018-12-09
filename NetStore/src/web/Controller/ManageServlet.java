@@ -12,7 +12,6 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 
-//@WebServlet(name = "ManageServlet",urlPatterns = "/manage/ManageServlet")
 public class ManageServlet extends HttpServlet {
 
     private BusinessService s = new BusinessServiceImpl();

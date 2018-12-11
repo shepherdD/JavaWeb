@@ -6,12 +6,8 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1b351754-b41e-4f96-819e-5e15e0fcece6" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/NetStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NetStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/unnamed.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="1b351754-b41e-4f96-819e-5e15e0fcece6" name="Default" comment="删除注释">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -34,9 +30,15 @@
     <session id="-113169865">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.9" value="2" />
           <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="6" />
+          <entry key="PLAIN_TEXT" value="13" />
         </counts>
       </usages-collector>
     </session>
@@ -98,8 +100,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/web/Controller/ManageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+            <state relative-caret-position="550">
+              <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -178,11 +180,11 @@
         <option value="$PROJECT_DIR$/src/web/Controller/TestServlet.java" />
         <option value="$PROJECT_DIR$/web/manage/addCategory.jsp" />
         <option value="$PROJECT_DIR$/src/service/impl/BusinessServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/web/Controller/ManageServlet.java" />
         <option value="$PROJECT_DIR$/src/filter/SetCharacterEncodingFilter.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/dao/impl/CategoryDaoImpl.java" />
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/453dd22b-3d05-496d-9573-d1f7f807a092/console.sql" />
+        <option value="$PROJECT_DIR$/src/web/Controller/ManageServlet.java" />
       </list>
     </option>
   </component>
@@ -289,6 +291,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="android.sdk.path" value="$USER_HOME$/Library/Android/sdk" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1544321823558" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -524,15 +527,31 @@
       <workItem from="1543501323365" duration="75000" />
       <workItem from="1543501402155" duration="4141000" />
       <workItem from="1544320479873" duration="66000" />
-      <workItem from="1544320607669" duration="559000" />
+      <workItem from="1544320607669" duration="1163000" />
     </task>
+    <task id="LOCAL-00001" summary="添加分类">
+      <created>1544321419131</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544321419131</updated>
+    </task>
+    <task id="LOCAL-00002" summary="删除注释">
+      <created>1544321730203</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1544321730203</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23650000" />
+    <option name="totallyTimeSpent" value="24254000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="720" extended-state="0" />
+    <frame x="0" y="23" width="1280" height="717" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" sideWeight="0.4816" visible="true" weight="0.1720517" />
       <window_info id="Structure" order="1" weight="0.24959612" />
@@ -544,7 +563,7 @@
       <window_info id="Web" order="7" sideWeight="0.5184" side_tool="true" weight="0.16720517" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.28503186" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.28503186" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.3984" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -553,8 +572,8 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
       <window_info anchor="bottom" id="Messages" order="9" weight="0.328" />
       <window_info anchor="bottom" id="Java Enterprise" order="10" />
-      <window_info anchor="bottom" id="Version Control" order="11" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.329582" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.3296" />
+      <window_info anchor="bottom" id="Application Servers" order="12" weight="0.328" />
       <window_info anchor="bottom" id="Database Console" order="13" weight="0.3296" />
       <window_info anchor="bottom" id="Database Changes" order="14" show_stripe_button="false" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
@@ -571,8 +590,39 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加分类" />
+    <MESSAGE value="删除注释" />
+    <option name="LAST_COMMIT_MESSAGE" value="删除注释" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/domain/Category.java">
@@ -727,8 +777,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/web/Controller/ManageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
+        <state relative-caret-position="550">
+          <caret line="23" column="45" selection-start-line="23" selection-start-column="45" selection-end-line="23" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

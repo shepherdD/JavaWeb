@@ -1,5 +1,7 @@
 package service;
 
+import commons.Page;
+import domain.Book;
 import domain.Category;
 
 import java.util.List;
@@ -24,4 +26,24 @@ public interface BusinessService {
      * @return 没有找到返回null
      */
     Category findCategoryById(String categoryId);
+
+    /**
+     * 添加书籍
+     * @param book
+     */
+    void addBook(Book book);
+
+    /**
+     * 根据ID查询书籍
+     * @param bookId
+     * @return
+     */
+    Book findBookById(String bookId);
+
+    /**
+     * 根据用户要查看的页码，返回封装了所有与分页对象有关的Page对象
+     * @param num 要看的页码，如果为null或""，默认为1
+     * @return
+     */
+    Page findBookPAgeByPageRecords(String num);
 }

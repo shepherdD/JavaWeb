@@ -15,6 +15,7 @@
           <element id="library" level="project" name="commons-pool-1.5.6" />
           <element id="library" level="project" name="jstl-1.2" />
           <element id="library" level="project" name="mysql-connector-java-5.0.8-bin" />
+          <element id="library" level="project" name="servlet-api" />
         </element>
       </element>
     </root>

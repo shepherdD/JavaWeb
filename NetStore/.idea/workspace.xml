@@ -7,23 +7,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="1b351754-b41e-4f96-819e-5e15e0fcece6" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/web/manage/listCategory.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/NetStore.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/NetStore.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/artifacts/NetStore_Web_exploded.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/NetStore_Web_exploded.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_3.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_beanutils_1_8_3.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_dbcp_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbcp_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_dbutils_1_4.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_logging_1_1_1.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_5_6.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/commons_pool_1_5_6.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/jstl_1_2.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0_8_bin.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/mysql_connector_java_5_0_8_bin.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/servlet_api.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/NetStore_Web_exploded/WEB-INF/classes/web/Controller/ManageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NetStore_Web_exploded/WEB-INF/classes/web/Controller/ManageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/artifacts/NetStore_Web_exploded/manage/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/NetStore_Web_exploded/manage/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/NetStore/web/Controller/ManageServlet.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/NetStore/web/Controller/ManageServlet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/web/Controller/ManageServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/web/Controller/ManageServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/manage/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/web/manage/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/commons-beanutils-1.8.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/commons-dbcp-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/commons-dbutils-1.4.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/commons-logging-1.1.1.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/commons-pool-1.5.6.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/jstl-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/jar/mysql-connector-java-5.0.8-bin.jar" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -96,7 +86,7 @@
         <entry file="file://$PROJECT_DIR$/src/web/Controller/ManageServlet.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="441">
-              <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+              <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -532,16 +522,15 @@
       <workItem from="1543501402155" duration="4141000" />
       <workItem from="1544320479873" duration="66000" />
       <workItem from="1544320607669" duration="559000" />
-      <workItem from="1544499876080" duration="3208000" />
+      <workItem from="1544499876080" duration="3371000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26858000" />
+    <option name="totallyTimeSpent" value="27021000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="0" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" weight="0.329582" />
@@ -800,7 +789,7 @@
     <entry file="file://$PROJECT_DIR$/src/web/Controller/ManageServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="441">
-          <caret line="29" column="9" lean-forward="true" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
+          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -885,7 +874,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>servlet-api</last-edited>
+          <last-edited>mysql-connector-java-5.0.8-bin</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

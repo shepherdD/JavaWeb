@@ -3,14 +3,17 @@ body{
     font-size: 12px;
 }
 
-table{
+table,th,td{
     font-size: 12px;
+    border: 1px solid grey;
+    border-collapse: collapse;
+    padding: 5px;
 }
 
 .odd{
-    background-color: #c3f3c3;
+    background-color: #f1f1f1;
 }
 
 .even{
-    background-color: #c3f3c3;
+    background-color: #ffffff;
 }

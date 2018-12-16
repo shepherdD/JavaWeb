@@ -16,7 +16,8 @@ public class BookDaoImpl implements BookDao {
     @Override
     public void save(Book book) {
         try {
-            qr.update("inset into books(id,name,author,price,path,filename,description,categoryId) " +
+            qr.update("insert into books(id,name,author,price,path,filename,description," +
+                            "categoryId) " +
                     "values (?,?,?,?,?,?,?,?)",book.getId(),book.getName(),book.getAuthor(),
                     book.getPrice(),book.getPath(),book.getFilename(),book.getDescription(),
                     book.getCategory().getId());

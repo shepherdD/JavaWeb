@@ -2,6 +2,7 @@ package web.Controller;
 
 import Util.IdGenertor;
 import Util.WebUtil;
+import commons.Page;
 import domain.Book;
 import domain.Category;
 import org.apache.commons.beanutils.BeanUtils;
@@ -42,7 +43,17 @@ public class ManageServlet extends HttpServlet {
             addBookUI(request,response);
         }else if ("addBook".equals(op)) {
             addBook(request,response);
+        } else if ("showPageBooks".equals(op)) {
+            showPageBooks(request,response);
         }
+    }
+
+    private void showPageBooks(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+        String num = request.getParameter("num");
+        Page page = s.findBookPageByPageRecords(num);
+        page.setUrl("/manage/ManageServlet?op=showPageBooks");
+        request.setAttribute("page",page);
+        request.getRequestDispatcher("/manage/listBooks.jsp").forward(request,response);
     }
 
     private void addCategory(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {

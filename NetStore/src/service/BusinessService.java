@@ -45,5 +45,6 @@ public interface BusinessService {
      * @param num 要看的页码，如果为null或""，默认为1
      * @return
      */
-    Page findBookPAgeByPageRecords(String num);
+    Page findBookPageByPageRecords(String num);
+    Page findBookPageByPageRecords(String num,String categoryId);
 }

@@ -6,8 +6,11 @@ import domain.Book;
 import domain.Category;
 import org.apache.commons.dbutils.QueryRunner;
 import org.apache.commons.dbutils.handlers.BeanHandler;
+import org.apache.commons.dbutils.handlers.BeanListHandler;
+import org.apache.commons.dbutils.handlers.ScalarHandler;
 
 import java.sql.SQLException;
+import java.util.List;
 
 public class BookDaoImpl implements BookDao {
 
@@ -42,4 +45,67 @@ public class BookDaoImpl implements BookDao {
         }
 
     }
+
+    @Override
+    public int getTotalRecordsNum() {
+        try {
+            Object obj = qr.query("select count(*) from books", new ScalarHandler(1));
+            Long num = (long)obj;
+            return num.intValue();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public List findPageRecords(int startIndex, int pageSize) {
+        try {
+            List <Book> books = qr.query("select * from books limit ?,?",
+                    new BeanListHandler<Book>(Book.class), startIndex, pageSize);
+            if (books != null && books.size() > 0) {
+                for (Book book:books) {
+                    Category c = qr.query("select * from categorys where id = (select categoryId " +
+                                    "from books where id = ?)",new BeanHandler<Category>(Category.class),
+                            book.getId());
+                    book.setCategory(c);
+                }
+            }
+            return books;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    @Override
+    public int getTotalRecordsNum(String categoryId) {
+        try {
+            Object obj = qr.query("select count(*) from books where categoryId = ?",
+                    new ScalarHandler(1),categoryId);
+            Long num = (long)obj;
+            return num.intValue();
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+
+    }
+
+    @Override
+    public List findPageRecords(int startIndex, int pageSize, String categoryId) {
+        try {
+            List <Book> books = qr.query("select * from books where categoryId = ? limit ?,?",
+                    new BeanListHandler<Book>(Book.class), categoryId, startIndex, pageSize);
+            if (books != null && books.size() > 0) {
+                for (Book book:books) {
+                    Category c = qr.query("select * from categorys where id = ?",
+                            new BeanHandler<Category>(Category.class),categoryId);
+                    book.setCategory(c);
+                }
+            }
+            return books;
+        } catch (SQLException e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+
 }

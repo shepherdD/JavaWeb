@@ -1,7 +1,7 @@
 <%@ page contentType="text/html;charset=UTF-8"
          language="java" %>
 <%@ include file="header.jsp"%>
-<table border="1" width="438">
+<table border="1" width="100%">
     <tr>
         <th>序号</th>
         <th>图片</th>
@@ -13,11 +13,11 @@
         <th>操作</th>
     </tr>
     <c:forEach items="${page.records}" var="b" varStatus="vs">
-        <tr class="${vs.index%2==0?'odd':'even'}" >
+        <tr class="${vs.index%2==0?'odd':'even'}">
             <td>${vs.count}</td>
             <td>
                 <img src="${pageContext.request.contextPath}/images/${b.path}/${b.filename}"
-                     alt="${b.filename}">
+                     alt="${b.filename}" height="200">
             </td>
             <td>${b.name}</td>
             <td>${b.author}</td>

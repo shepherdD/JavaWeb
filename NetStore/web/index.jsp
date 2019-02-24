@@ -11,6 +11,8 @@
     <title>$Title$</title>
   </head>
   <body>
-  $END$
+    <jsp:forward page="/client/ClientServlet">
+      <jsp:param name="op" value="showIndex"></jsp:param>
+    </jsp:forward>
   </body>
 </html>
